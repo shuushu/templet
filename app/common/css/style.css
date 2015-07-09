@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*--------------------------------------------------------------------------------- 
+ * Project   : GruntTemplate(Grunt 를 사용하기 위한 예제 템플릿) v0.0.1
+ * User      : choi hoon chul
+ * Publisher : Ho, Jong-Mun
+ * Build     : 2015-07-09
+ * License   : CC BY-ND (http://creativecommons.org/licenses/by/2.0/kr/)
+ ---------------------------------------------------------------------------------*/
+/* line 1, app\less\common\normalize.less */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+hr,
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+/* line 2, app\less\common\normalize.less */
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+/* line 3, app\less\common\normalize.less */
+hr {
+  height: 0;
+  display: none;
+}
+/* line 4, app\less\common\normalize.less */
+ol,
+ul {
+  list-style: none;
+}
+/* line 5, app\less\common\normalize.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 6, app\less\common\normalize.less */
+caption,
+th,
+td {
+  font-weight: normal;
+}
+/* line 7, app\less\common\normalize.less */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+/* line 8, app\less\common\normalize.less */
+blockquote,
+q {
+  quotes: "" "";
+}
+/* line 9, app\less\common\normalize.less */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+/* line 10, app\less\common\normalize.less */
+input[type="search"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+/* line 18, app\less\common\normalize.less */
+textarea,
+input,
+select {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border: 0;
+}
+/* line 19, app\less\common\normalize.less */
+textarea {
+  resize: vertical;
+}
+/* line 20, app\less\common\normalize.less */
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+/* line 22, app\less\common\normalize.less */
+address,
+article,
+aside,
+blockquote,
+body,
+center,
+dd,
+dir,
+div,
+dl,
+dt,
+figure,
+figcaption,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+legend,
+listing,
+menu,
+nav,
+ol,
+p,
+plaintext,
+pre,
+section,
+summary,
+ul,
+xmp,
+figure {
+  display: block;
+}
+/* line 27, app\less\common\normalize.less */
+body.android input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* line 28, app\less\common\normalize.less */
+.ellipsis {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NanumGothic-Regular.eot');
+  src: url('../fonts/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic-Regular.woff2') format('woff2'), url('../fonts/NanumGothic-Regular.woff') format('woff'), url('../fonts/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('../fonts/NanumGothic-Bold.eot');
+  src: url('../fonts/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic-Bold.woff2') format('woff2'), url('../fonts/NanumGothic-Bold.woff') format('woff'), url('../fonts/NanumGothic-Bold.ttf') format('truetype');
+}
+/* -----------------------------------------------------
+	Site1
+----------------------------------------------------- */
+/* line 7, app\less\site\site1.less */
+.wrapper {
+  width: 1200px;
+  margin: 30px auto;
+}
+/* line 16, app\less\site\site1.less */
+.user {
+  background: url('../../imgs/user.png') no-repeat;
+  width: 25px;
+  height: 32px;
+  display: inline-block;
+}
+/* line 22, app\less\site\site1.less */
+.download {
+  background: url('../../imgs/download.png') no-repeat;
+  width: 25px;
+  height: 32px;
+  display: inline-block;
+}
+/* line 31, app\less\site\site1.less */
+.main {
+  background-color: #ddd;
+}
