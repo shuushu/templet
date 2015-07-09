@@ -34,12 +34,3 @@ npm install load-grunt-tasks
 npm install time-grunt
 </pre>
 
-
-3) 현재 저장소에 올라간 파일에 보면 압축 파일이 존재하는데 grunt-contrib-imagemin 제외한 모듈이 들어있다.
-압축을 풀고, grunt-contrib-imagemin 만 인스톨 해주면 바로 사용할수 있다.
-
-
-4) 마지막으로 shell을 이용해 서버를 실행해보자
-```
-& grunt serve
-```
